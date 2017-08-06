@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="77dp">
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="100dp"
+        android:layout_height="75dp"
+        android:layout_alignParentLeft="true" />
+
+    <TextView
+        android:id="@+id/song_name"
+        android:layout_width="175dp"
+        android:layout_height="75dp"
+        android:layout_toRightOf="@+id/img"
+        android:gravity="center"
+        android:text="This is song name" />
+
+    <TextView
+        android:id="@+id/song_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_alignParentRight="true"
+        android:layout_toRightOf="@+id/song_name"
+        android:gravity="center"
+        android:text="this is song ranking" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_alignBottom="@+id/img" />
+
+
+</RelativeLayout>
